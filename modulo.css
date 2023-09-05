@@ -1,0 +1,145 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 50%;
+    margin: 100px auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Navbar */
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mini {
+    width: 13%;
+}
+
+/* imagen fondo */
+.img-fondo {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* presentacion */
+.presentacion {
+    text-align: center;
+}
+
+/* Cómo trabajamos */
+
+.titulo-como-trabajamos {
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#como-trabajamos {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* diagrama */
+.como-trabajamos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". ch ."
+    "ge me bo"
+    ". de .";    
+    background-color: darkgrey;
+    padding: 0 5vh 10vh 5vh;
+}
+
+.charla {
+    grid-area: ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bocetado {
+    grid-area: bo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desarrollo {
+    grid-area: de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generacion {
+    grid-area: ge;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.medio {
+    grid-area: me;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eme {
+    width: 15%;
+}
+
+.ico-trabajamos {
+    width: 7vh
+}
+
+/* modelado y renderizado */
+
+
+
+
+/* Carousel modelado */
+
+.renderizado {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.pie-foto {
+    margin: 0 auto;
+}
+
+.d-block {
+    border-radius: 1vh;
+}
