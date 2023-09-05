@@ -57,18 +57,44 @@ p {
 .titulo-como-trabajamos {
     background-color: darkgrey;
     display: flex;
-    align-items: center;
+    
     justify-content: center; 
+}
+
+.diagrama {
+    background-color: darkgrey;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.celdas-diagrama {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 50vh;
+}
+
+.celdas-img {
+    height: 20%;
+}
+
+.celdas-p {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #como-trabajamos {
     text-align: center;
     margin-bottom: 0;
-}
+} 
 
 
 /* diagrama */
-.como-trabajamos {
+/* .como-trabajamos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -121,7 +147,7 @@ p {
 
 .ico-trabajamos {
     width: 7vh
-}
+} */
 
 /* modelado y renderizado */
 
