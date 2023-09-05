@@ -70,10 +70,6 @@ p {
 .diagrama {
     background-color: darkgrey;
     justify-content: center;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; */
 }
 
 .celdas-diagrama {
@@ -97,68 +93,6 @@ p {
     text-align: center;
     margin-bottom: 0;
 } 
-
-
-/* diagrama */
-/* .como-trabajamos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    ". ch ."
-    "ge me bo"
-    ". de .";    
-    background-color: darkgrey;
-    padding: 0 5vh 10vh 5vh;
-}
-
-.charla {
-    grid-area: ch;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bocetado {
-    grid-area: bo;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.desarrollo {
-    grid-area: de;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.generacion {
-    grid-area: ge;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.medio {
-    grid-area: me;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.eme {
-    width: 15%;
-}
-
-.ico-trabajamos {
-    width: 7vh
-} */
-
-/* modelado y renderizado */
-
-
-
 
 /* Carousel modelado */
 
