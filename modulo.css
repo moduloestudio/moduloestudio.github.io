@@ -37,8 +37,14 @@ p {
 }
 
 .mini {
-    width: 13%;
+    width: 20%;
 }
+
+.navbar-brand{
+    width: 70%;
+}
+
+
 
 /* imagen fondo */
 .img-fondo {
