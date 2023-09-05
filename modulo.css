@@ -27,6 +27,10 @@ p {
 
 /* Navbar */
 
+.navbar {
+
+}
+
 .collapse {
     display: flex;
     justify-content: flex-end;
@@ -49,6 +53,7 @@ p {
 
 /* imagen fondo */
 .img-fondo {
+    padding-top: 56px;
     width: 100%;
     height: auto;
     
