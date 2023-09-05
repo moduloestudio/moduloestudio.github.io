@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -70,6 +71,7 @@ p {
 .diagrama {
     background-color: darkgrey;
     justify-content: center;
+    width: 100%;
 }
 
 .celdas-diagrama {
