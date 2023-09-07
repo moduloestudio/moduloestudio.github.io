@@ -53,7 +53,6 @@ p {
     padding-top: 56px;
     width: 100%;
     height: auto;
-    
 }
 
 /* presentacion */
@@ -112,4 +111,25 @@ p {
 
 .d-block {
     border-radius: 1vh;
+}
+
+/* Footer */
+.bottom-container {
+    background-color: darkgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ico-footer {
+    width: 8%;
 }
