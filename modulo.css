@@ -27,9 +27,6 @@ p {
 
 /* Navbar */
 
-.navbar {
-
-}
 
 .collapse {
     display: flex;
@@ -66,17 +63,14 @@ p {
 
 /* Cómo trabajamos */
 
-.titulo-como-trabajamos {
-    background-color: darkgrey;
-    display: flex;
-    
-    justify-content: center; 
+#como-trabajamos {
+    padding-bottom: 80px;
 }
 
 .diagrama {
     background-color: darkgrey;
     justify-content: center;
-    width: 100%;
+    padding-bottom: 100px;
 }
 
 .celdas-diagrama {
@@ -88,12 +82,15 @@ p {
 }
 
 .celdas-img {
-    height: 20%;
+    height: 40%;
+    margin-right: 20px;
 }
 
 .celdas-p {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #como-trabajamos {
