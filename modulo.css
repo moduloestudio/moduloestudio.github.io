@@ -20,7 +20,7 @@ h1 {
 p {
     font-family: 'Nunito Sans', sans-serif;
     width: 70%;
-    margin: 100px auto;
+    margin: auto;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -65,6 +65,7 @@ h4 {
 /* presentacion */
 .presentacion {
     text-align: center;
+    margin-bottom:  100px;
 }
 
 /* Cómo trabajamos */
